@@ -1,0 +1,66 @@
+body {
+
+    background-color: #a33e8f;
+background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+margin: 0;
+padding: 0;
+
+}
+
+#navbar {
+    width: 100%;
+    height: 60px;
+    background-color: darkslategrey;
+    position: absolute;
+    top:0;
+    transition: 0.3s;
+
+}
+#navbar: hover {
+    background-color: rgb(0, 16, 109);
+}
+
+
+.ListItem {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    margin-right: 16px
+}
+
+.listItem a {
+
+    color: lightgray;
+    text text-decoration: none;
+    font-size: 20px;
+}
+
+#brand {
+    float: left;
+}
+.listItem a:hover {
+    color: yellow;
+}
+
+header { 
+        height: 70vh;
+        min-height: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items center;
+
+}
+
+#imageBox {
+    height: 300px;
+    width: 300px;
+    background-image: url('./Capture.PNG');
+    background-position: center;
+    background-size: cover;
+
+}
+
+#greetingBox {
+    color:darkslategray;
+}
